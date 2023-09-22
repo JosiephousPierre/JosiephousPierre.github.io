@@ -112,6 +112,22 @@ html {
     padding: 40px 0 100px 0;
     background-color: #4D00FF;
   }
+
+  .me img {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    z-index: 1;
+    overflow: hidden;
+    transition: .5s;
+  }
   
   .me p {
     border-top: 1px solid #fff;
@@ -126,7 +142,6 @@ html {
 
   .title {
     padding: 10px 0 40px 0;
-    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Ftenor.com%2Fview%2Fwano-gif-27255547&psig=AOvVaw30JF51SWaBw-BZ_AJNCdIR&ust=1695442294067000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLC00--svYEDFQAAAAAdAAAAABBz');
     text-align: center;
     color:rgb(0, 0, 0);
   }
